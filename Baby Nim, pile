@@ -24,7 +24,7 @@ public class Program
             } else if (choice.equals("C")) {
                 C = C - r;
             }
-            if(pileA<=0 && pileB <= 0 && pileC <= 0) {
+            if(A<=0 && B <= 0 && C <= 0) {
                 System.out.print("All piles are empty. Good job!");
             }
 		
